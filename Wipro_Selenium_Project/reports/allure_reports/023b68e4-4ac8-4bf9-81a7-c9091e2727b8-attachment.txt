@@ -1,0 +1,16 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:24 ============================================================
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:25 NEGATIVE TEST 1 — WRONG WEBSITE URL
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:26 Expected website : https://www.bestbuy.com
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:27 Opening WRONG website: https://www.bastbiy.com
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:28 ============================================================
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:37 Wrong website attempted: https://www.bastbiy.com
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:38 Page Title : www.bastbiy.com
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\negative_test_1_wrong_website_url_20260522_144048.png
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:46 Negative verification — bestbuy.com absent from URL: True
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:47 Result : NEGATIVE TEST 1 PASSED — wrong BestBuy URL used instead of bestbuy.com
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.

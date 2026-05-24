@@ -1,0 +1,301 @@
+2026-05-22 14:28:33 | INFO | conftest | Browser started.
+2026-05-22 14:28:33 | INFO | tests.test_1_e2e_cases | ======================================================================
+2026-05-22 14:28:33 | INFO | tests.test_1_e2e_cases | STARTING COMPLETE POSITIVE FLOW — E2E TEST
+2026-05-22 14:28:33 | INFO | tests.test_1_e2e_cases | ======================================================================
+2026-05-22 14:28:33 | INFO | tests.test_1_e2e_cases | POSITIVE TEST 1 — OPEN BESTBUY WEBSITE
+2026-05-22 14:28:38 | INFO | tests.test_1_e2e_cases | BestBuy website opened: https://www.bestbuy.com/
+2026-05-22 14:28:40 | INFO | tests.test_1_e2e_cases | PASSED — BestBuy website opened successfully
+2026-05-22 14:28:40 | INFO | tests.test_1_e2e_cases | POSITIVE TEST 2 — SELECT UNITED STATES
+2026-05-22 14:28:40 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:28:41 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:28:49 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:28:50 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:28:50 | INFO | tests.test_1_e2e_cases | PASSED — United States selected. URL: https://www.bestbuy.com/?intl=nosplash
+2026-05-22 14:28:50 | INFO | tests.test_1_e2e_cases | POSITIVE TEST 3 — CLICK TOP DEALS
+2026-05-22 14:28:50 | INFO | pages.home_page | === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+2026-05-22 14:28:58 | WARNING | pages.home_page | XPath not found, trying next: //a[@data-lid="ubr_td"]
+2026-05-22 14:28:59 | INFO | pages.home_page | Top Deals link found — clicking...
+2026-05-22 14:29:21 | INFO | pages.home_page | Top Deals CLICKED
+2026-05-22 14:29:21 | INFO | pages.home_page | Top Deals page URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:29:21 | INFO | tests.test_1_e2e_cases | PASSED — Top Deals opened. URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:29:21 | INFO | tests.test_1_e2e_cases | POSITIVE TEST 4 — CLICK HEADPHONES CATEGORY
+2026-05-22 14:29:21 | INFO | pages.headphones_page | === POSITIVE TEST 4: CLICK HEADPHONES CATEGORY ===
+2026-05-22 14:29:24 | INFO | pages.headphones_page | Headphones link found — clicking...
+2026-05-22 14:29:31 | INFO | pages.headphones_page | Headphones CLICKED
+2026-05-22 14:29:33 | INFO | pages.headphones_page | Headphones On Sale page: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:29:33 | INFO | tests.test_1_e2e_cases | PASSED — Headphones page opened. URL: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:29:33 | INFO | tests.test_1_e2e_cases | POSITIVE TEST 5 — CLICK RANDOM HEADPHONE CATEGORY
+2026-05-22 14:29:33 | INFO | pages.headphones_page | === POSITIVE TEST 5: CLICK RANDOM HEADPHONE CATEGORY ===
+2026-05-22 14:29:33 | INFO | utilities.excel_utils | Categories loaded from Excel: ['Wireless', 'Wired', 'Open-Ear', 'Sports', 'Noise-Cancelling']
+2026-05-22 14:29:33 | INFO | utilities.excel_utils | Randomly selected category: Wired
+2026-05-22 14:29:33 | INFO | pages.headphones_page | Selected category from Excel: Wired
+2026-05-22 14:29:35 | INFO | pages.headphones_page | Wired link found — clicking...
+2026-05-22 14:29:56 | INFO | pages.headphones_page | Wired CLICKED
+2026-05-22 14:30:12 | INFO | pages.headphones_page | Category page URL: https://www.bestbuy.com/site/headphones-on-sale/wired-headphones-on-sale/pcmcat1754336398812.c?id=pcmcat1754336398812
+2026-05-22 14:30:12 | INFO | tests.test_1_e2e_cases | PASSED — Random category selected: Wired. URL: https://www.bestbuy.com/site/headphones-on-sale/wired-headphones-on-sale/pcmcat1754336398812.c?id=pcmcat1754336398812
+2026-05-22 14:30:12 | INFO | tests.test_1_e2e_cases | POSITIVE TEST 6 — ADD PRODUCTS TO CART
+2026-05-22 14:30:12 | INFO | pages.headphones_page | Counting products on listing page...
+2026-05-22 14:30:18 | INFO | pages.headphones_page | Found 57 products using selector: [class*="list-item"]
+2026-05-22 14:30:18 | INFO | tests.test_1_e2e_cases | Products found on page: 57
+2026-05-22 14:30:18 | INFO | pages.headphones_page | === POSITIVE TEST 6: ADD PRODUCTS TO CART ===
+2026-05-22 14:30:20 | INFO | pages.headphones_page | Total Add to Cart buttons found: 6
+2026-05-22 14:30:20 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6572449
+2026-05-22 14:30:21 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-5577816
+2026-05-22 14:30:21 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-5739305
+2026-05-22 14:30:23 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6415428
+2026-05-22 14:30:23 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-8618232
+2026-05-22 14:30:23 | INFO | pages.headphones_page | Valid buttons ready to click: 5
+2026-05-22 14:30:27 | INFO | pages.headphones_page | Clicking Add to Cart for product 1: plp-add-to-cart-6572449
+2026-05-22 14:30:28 | INFO | pages.headphones_page | Add to Cart clicked!
+2026-05-22 14:30:32 | INFO | pages.headphones_page | Product 1 added to cart successfully.
+2026-05-22 14:30:35 | INFO | pages.headphones_page | Clicking Add to Cart for product 2: plp-add-to-cart-5577816
+2026-05-22 14:30:35 | INFO | pages.headphones_page | Add to Cart clicked!
+2026-05-22 14:30:39 | INFO | pages.headphones_page | Product 2 added to cart successfully.
+2026-05-22 14:30:39 | INFO | pages.headphones_page | Total products added to cart: 2
+2026-05-22 14:30:39 | INFO | tests.test_1_e2e_cases | PASSED — Products added to cart: 2
+2026-05-22 14:30:39 | INFO | tests.test_1_e2e_cases | POSITIVE TEST 7 — OPEN CART / ORDER SUMMARY PAGE
+2026-05-22 14:30:39 | INFO | pages.headphones_page | === POSITIVE TEST 7: OPEN CART PAGE ===
+2026-05-22 14:30:57 | INFO | pages.headphones_page | Cart page loaded: https://www.bestbuy.com/cart
+2026-05-22 14:30:58 | INFO | pages.headphones_page | Cart items visible: 5
+2026-05-22 14:30:59 | INFO | tests.test_1_e2e_cases | PASSED — Cart page opened. URL: https://www.bestbuy.com/cart
+2026-05-22 14:30:59 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_e2e_test_complete_cart_20260522_143059.png
+2026-05-22 14:30:59 | INFO | tests.test_1_e2e_cases | ======================================================================
+2026-05-22 14:30:59 | INFO | tests.test_1_e2e_cases | ALL 7 POSITIVE TESTS PASSED SUCCESSFULLY
+2026-05-22 14:30:59 | INFO | tests.test_1_e2e_cases | ======================================================================
+2026-05-22 14:30:59 | INFO | conftest | Browser closing.
+2026-05-22 14:31:12 | INFO | conftest | Browser started.
+2026-05-22 14:31:12 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:31:12 | INFO | tests.test_2_positive_cases | POSITIVE TEST 1 — OPEN BESTBUY WEBSITE
+2026-05-22 14:31:12 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:31:16 | INFO | tests.test_2_positive_cases | Website opened: https://www.bestbuy.com/
+2026-05-22 14:31:16 | INFO | tests.test_2_positive_cases | Page Title    : Best Buy International: Select your Country - Best Buy
+2026-05-22 14:31:18 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_test_01_bestbuy_website_20260522_143118.png
+2026-05-22 14:31:18 | INFO | tests.test_2_positive_cases | POSITIVE TEST 1 PASSED — BestBuy website opened: https://www.bestbuy.com/
+2026-05-22 14:31:18 | INFO | conftest | Browser closing.
+2026-05-22 14:31:30 | INFO | conftest | Browser started.
+2026-05-22 14:31:30 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:31:30 | INFO | tests.test_2_positive_cases | POSITIVE TEST 2 — OPEN BESTBUY + SELECT UNITED STATES
+2026-05-22 14:31:30 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:31:34 | INFO | tests.test_2_positive_cases | Website opened: https://www.bestbuy.com/
+2026-05-22 14:31:34 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:31:35 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:31:42 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:31:42 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:31:43 | INFO | tests.test_2_positive_cases | United States selected. URL: https://www.bestbuy.com/?intl=nosplash
+2026-05-22 14:31:46 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_test_02_united_states_20260522_143143.png
+2026-05-22 14:31:47 | INFO | tests.test_2_positive_cases | POSITIVE TEST 2 PASSED — United States selected: https://www.bestbuy.com/?intl=nosplash
+2026-05-22 14:31:47 | INFO | conftest | Browser closing.
+2026-05-22 14:31:56 | INFO | conftest | Browser started.
+2026-05-22 14:31:56 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:31:56 | INFO | tests.test_2_positive_cases | POSITIVE TEST 3 — OPEN BESTBUY + SELECT US + CLICK TOP DEALS
+2026-05-22 14:31:56 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:32:00 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:32:02 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:32:10 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:32:11 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:32:11 | INFO | tests.test_2_positive_cases | United States selected. URL: https://www.bestbuy.com/?intl=nosplash
+2026-05-22 14:32:11 | INFO | pages.home_page | === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+2026-05-22 14:32:19 | WARNING | pages.home_page | XPath not found, trying next: //a[@data-lid="ubr_td"]
+2026-05-22 14:32:20 | INFO | pages.home_page | Top Deals link found — clicking...
+2026-05-22 14:32:40 | INFO | pages.home_page | Top Deals CLICKED
+2026-05-22 14:32:41 | INFO | pages.home_page | Top Deals page URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:32:41 | INFO | tests.test_2_positive_cases | Top Deals clicked. URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:32:41 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_test_03_top_deals_20260522_143241.png
+2026-05-22 14:32:41 | INFO | tests.test_2_positive_cases | POSITIVE TEST 3 PASSED — Top Deals opened: https://www.bestbuy.com/top-deals
+2026-05-22 14:32:42 | INFO | conftest | Browser closing.
+2026-05-22 14:32:53 | INFO | conftest | Browser started.
+2026-05-22 14:32:53 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:32:53 | INFO | tests.test_2_positive_cases | POSITIVE TEST 4 — UP TO CLICK HEADPHONES CATEGORY
+2026-05-22 14:32:53 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:32:54 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:32:58 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:33:04 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:33:06 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:33:06 | INFO | tests.test_2_positive_cases | United States selected. URL: https://www.bestbuy.com/?intl=nosplash
+2026-05-22 14:33:06 | INFO | pages.home_page | === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+2026-05-22 14:33:14 | WARNING | pages.home_page | XPath not found, trying next: //a[@data-lid="ubr_td"]
+2026-05-22 14:33:15 | INFO | pages.home_page | Top Deals link found — clicking...
+2026-05-22 14:33:34 | INFO | pages.home_page | Top Deals CLICKED
+2026-05-22 14:33:35 | INFO | pages.home_page | Top Deals page URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:33:35 | INFO | tests.test_2_positive_cases | Top Deals clicked. URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:33:35 | INFO | pages.headphones_page | === POSITIVE TEST 4: CLICK HEADPHONES CATEGORY ===
+2026-05-22 14:33:37 | INFO | pages.headphones_page | Headphones link found — clicking...
+2026-05-22 14:33:44 | INFO | pages.headphones_page | Headphones CLICKED
+2026-05-22 14:33:46 | INFO | pages.headphones_page | Headphones On Sale page: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:33:46 | INFO | tests.test_2_positive_cases | Headphones category clicked. URL: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:33:46 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_test_04_headphones_20260522_143346.png
+2026-05-22 14:33:46 | INFO | tests.test_2_positive_cases | POSITIVE TEST 4 PASSED — Headphones page opened: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:33:46 | INFO | conftest | Browser closing.
+2026-05-22 14:33:58 | INFO | conftest | Browser started.
+2026-05-22 14:33:58 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:33:58 | INFO | tests.test_2_positive_cases | POSITIVE TEST 5 — UP TO CLICK RANDOM HEADPHONE CATEGORY
+2026-05-22 14:33:58 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:33:59 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:34:04 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:34:10 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:34:11 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:34:11 | INFO | pages.home_page | === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+2026-05-22 14:34:19 | WARNING | pages.home_page | XPath not found, trying next: //a[@data-lid="ubr_td"]
+2026-05-22 14:34:20 | INFO | pages.home_page | Top Deals link found — clicking...
+2026-05-22 14:34:41 | INFO | pages.home_page | Top Deals CLICKED
+2026-05-22 14:34:41 | INFO | pages.home_page | Top Deals page URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:34:41 | INFO | pages.headphones_page | === POSITIVE TEST 4: CLICK HEADPHONES CATEGORY ===
+2026-05-22 14:34:43 | INFO | pages.headphones_page | Headphones link found — clicking...
+2026-05-22 14:34:54 | INFO | pages.headphones_page | Headphones CLICKED
+2026-05-22 14:34:56 | INFO | pages.headphones_page | Headphones On Sale page: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:34:56 | INFO | pages.headphones_page | === POSITIVE TEST 5: CLICK RANDOM HEADPHONE CATEGORY ===
+2026-05-22 14:34:56 | INFO | utilities.excel_utils | Categories loaded from Excel: ['Wireless', 'Wired', 'Open-Ear', 'Sports', 'Noise-Cancelling']
+2026-05-22 14:34:56 | INFO | utilities.excel_utils | Randomly selected category: Noise-Cancelling
+2026-05-22 14:34:56 | INFO | pages.headphones_page | Selected category from Excel: Noise-Cancelling
+2026-05-22 14:34:58 | INFO | pages.headphones_page | Noise-Cancelling link found — clicking...
+2026-05-22 14:35:28 | INFO | pages.headphones_page | Noise-Cancelling CLICKED
+2026-05-22 14:35:44 | INFO | pages.headphones_page | Category page URL: https://www.bestbuy.com/site/headphones-on-sale/noise-cancelling-headphones-on-sale/pcmcat1754336741480.c?id=pcmcat1754336741480
+2026-05-22 14:35:44 | INFO | tests.test_2_positive_cases | Random category selected: Noise-Cancelling. URL: https://www.bestbuy.com/site/headphones-on-sale/noise-cancelling-headphones-on-sale/pcmcat1754336741480.c?id=pcmcat1754336741480
+2026-05-22 14:35:45 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_test_05_random_headphone_category_20260522_143544.png
+2026-05-22 14:35:45 | INFO | tests.test_2_positive_cases | POSITIVE TEST 5 PASSED — Random category page opened: https://www.bestbuy.com/site/headphones-on-sale/noise-cancelling-headphones-on-sale/pcmcat1754336741480.c?id=pcmcat1754336741480
+2026-05-22 14:35:46 | INFO | conftest | Browser closing.
+2026-05-22 14:35:59 | INFO | conftest | Browser started.
+2026-05-22 14:35:59 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:35:59 | INFO | tests.test_2_positive_cases | POSITIVE TEST 6 — UP TO ADD PRODUCTS TO CART
+2026-05-22 14:35:59 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:36:03 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:36:05 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:36:12 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:36:14 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:36:14 | INFO | pages.home_page | === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+2026-05-22 14:36:22 | WARNING | pages.home_page | XPath not found, trying next: //a[@data-lid="ubr_td"]
+2026-05-22 14:36:23 | INFO | pages.home_page | Top Deals link found — clicking...
+2026-05-22 14:36:35 | INFO | pages.home_page | Top Deals CLICKED
+2026-05-22 14:36:41 | INFO | pages.home_page | Top Deals page URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:36:41 | INFO | pages.headphones_page | === POSITIVE TEST 4: CLICK HEADPHONES CATEGORY ===
+2026-05-22 14:36:43 | INFO | pages.headphones_page | Headphones link found — clicking...
+2026-05-22 14:36:51 | INFO | pages.headphones_page | Headphones CLICKED
+2026-05-22 14:36:53 | INFO | pages.headphones_page | Headphones On Sale page: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:36:53 | INFO | pages.headphones_page | === POSITIVE TEST 5: CLICK RANDOM HEADPHONE CATEGORY ===
+2026-05-22 14:36:53 | INFO | utilities.excel_utils | Categories loaded from Excel: ['Wireless', 'Wired', 'Open-Ear', 'Sports', 'Noise-Cancelling']
+2026-05-22 14:36:53 | INFO | utilities.excel_utils | Randomly selected category: Sports
+2026-05-22 14:36:53 | INFO | pages.headphones_page | Selected category from Excel: Sports
+2026-05-22 14:36:55 | INFO | pages.headphones_page | Sports link found — clicking...
+2026-05-22 14:37:16 | INFO | pages.headphones_page | Sports CLICKED
+2026-05-22 14:37:31 | INFO | pages.headphones_page | Category page URL: https://www.bestbuy.com/site/headphones-on-sale/sports-headphones-on-sale/pcmcat1754336820255.c?id=pcmcat1754336820255
+2026-05-22 14:37:31 | INFO | tests.test_2_positive_cases | Random category selected: Sports
+2026-05-22 14:37:31 | INFO | pages.headphones_page | Counting products on listing page...
+2026-05-22 14:37:36 | INFO | pages.headphones_page | Found 53 products using selector: [class*="list-item"]
+2026-05-22 14:37:36 | INFO | tests.test_2_positive_cases | Products found on page: 53
+2026-05-22 14:37:36 | INFO | pages.headphones_page | === POSITIVE TEST 6: ADD PRODUCTS TO CART ===
+2026-05-22 14:37:38 | INFO | pages.headphones_page | Total Add to Cart buttons found: 4
+2026-05-22 14:37:38 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6556931
+2026-05-22 14:37:39 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6376563
+2026-05-22 14:37:40 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6590627
+2026-05-22 14:37:41 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6590116
+2026-05-22 14:37:41 | INFO | pages.headphones_page | Valid buttons ready to click: 4
+2026-05-22 14:37:44 | INFO | pages.headphones_page | Clicking Add to Cart for product 1: plp-add-to-cart-6556931
+2026-05-22 14:37:45 | INFO | pages.headphones_page | Add to Cart clicked!
+2026-05-22 14:37:49 | INFO | pages.headphones_page | Product 1 added to cart successfully.
+2026-05-22 14:37:52 | INFO | pages.headphones_page | Clicking Add to Cart for product 2: plp-add-to-cart-6376563
+2026-05-22 14:37:52 | INFO | pages.headphones_page | Add to Cart clicked!
+2026-05-22 14:37:56 | INFO | pages.headphones_page | Product 2 added to cart successfully.
+2026-05-22 14:37:56 | INFO | pages.headphones_page | Total products added to cart: 2
+2026-05-22 14:37:56 | INFO | tests.test_2_positive_cases | Products added to cart: 2
+2026-05-22 14:37:56 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_test_06_add_to_cart_20260522_143756.png
+2026-05-22 14:37:56 | INFO | tests.test_2_positive_cases | POSITIVE TEST 6 PASSED — Products added to cart: 2
+2026-05-22 14:37:56 | INFO | conftest | Browser closing.
+2026-05-22 14:38:10 | INFO | conftest | Browser started.
+2026-05-22 14:38:10 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:38:10 | INFO | tests.test_2_positive_cases | POSITIVE TEST 7 — FULL FLOW UP TO CART / ORDER SUMMARY
+2026-05-22 14:38:10 | INFO | tests.test_2_positive_cases | ============================================================
+2026-05-22 14:38:14 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:38:16 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:38:22 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:38:24 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:38:24 | INFO | pages.home_page | === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+2026-05-22 14:38:32 | WARNING | pages.home_page | XPath not found, trying next: //a[@data-lid="ubr_td"]
+2026-05-22 14:38:34 | INFO | pages.home_page | Top Deals link found — clicking...
+2026-05-22 14:39:02 | INFO | pages.home_page | Top Deals CLICKED
+2026-05-22 14:39:02 | INFO | pages.home_page | Top Deals page URL: https://www.bestbuy.com/top-deals
+2026-05-22 14:39:02 | INFO | pages.headphones_page | === POSITIVE TEST 4: CLICK HEADPHONES CATEGORY ===
+2026-05-22 14:39:04 | INFO | pages.headphones_page | Headphones link found — clicking...
+2026-05-22 14:39:11 | INFO | pages.headphones_page | Headphones CLICKED
+2026-05-22 14:39:12 | INFO | pages.headphones_page | Headphones On Sale page: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+2026-05-22 14:39:12 | INFO | pages.headphones_page | === POSITIVE TEST 5: CLICK RANDOM HEADPHONE CATEGORY ===
+2026-05-22 14:39:13 | INFO | utilities.excel_utils | Categories loaded from Excel: ['Wireless', 'Wired', 'Open-Ear', 'Sports', 'Noise-Cancelling']
+2026-05-22 14:39:13 | INFO | utilities.excel_utils | Randomly selected category: Open-Ear
+2026-05-22 14:39:13 | INFO | pages.headphones_page | Selected category from Excel: Open-Ear
+2026-05-22 14:39:14 | INFO | pages.headphones_page | Open-Ear link found — clicking...
+2026-05-22 14:39:35 | INFO | pages.headphones_page | Open-Ear CLICKED
+2026-05-22 14:39:49 | INFO | pages.headphones_page | Category page URL: https://www.bestbuy.com/site/headphones-on-sale/open-ear-headphones-on-sale/pcmcat1756152030462.c?id=pcmcat1756152030462
+2026-05-22 14:39:49 | INFO | tests.test_2_positive_cases | Random category selected: Open-Ear
+2026-05-22 14:39:49 | INFO | pages.headphones_page | Counting products on listing page...
+2026-05-22 14:39:53 | INFO | pages.headphones_page | Found 48 products using selector: [class*="list-item"]
+2026-05-22 14:39:53 | INFO | pages.headphones_page | === POSITIVE TEST 6: ADD PRODUCTS TO CART ===
+2026-05-22 14:39:56 | INFO | pages.headphones_page | Total Add to Cart buttons found: 6
+2026-05-22 14:39:56 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6520487
+2026-05-22 14:39:57 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6590116
+2026-05-22 14:39:58 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6580212
+2026-05-22 14:39:58 | INFO | pages.headphones_page | Valid Add to Cart button: plp-add-to-cart-6568949
+2026-05-22 14:39:58 | INFO | pages.headphones_page | Valid buttons ready to click: 4
+2026-05-22 14:40:02 | INFO | pages.headphones_page | Clicking Add to Cart for product 1: plp-add-to-cart-6520487
+2026-05-22 14:40:02 | INFO | pages.headphones_page | Add to Cart clicked!
+2026-05-22 14:40:05 | INFO | pages.headphones_page | Product 1 added to cart successfully.
+2026-05-22 14:40:09 | INFO | pages.headphones_page | Clicking Add to Cart for product 2: plp-add-to-cart-6590116
+2026-05-22 14:40:09 | INFO | pages.headphones_page | Add to Cart clicked!
+2026-05-22 14:40:12 | INFO | pages.headphones_page | Product 2 added to cart successfully.
+2026-05-22 14:40:12 | INFO | pages.headphones_page | Total products added to cart: 2
+2026-05-22 14:40:12 | INFO | tests.test_2_positive_cases | Products added to cart: 2
+2026-05-22 14:40:12 | INFO | pages.headphones_page | === POSITIVE TEST 7: OPEN CART PAGE ===
+2026-05-22 14:40:30 | INFO | pages.headphones_page | Cart page loaded: https://www.bestbuy.com/cart
+2026-05-22 14:40:30 | INFO | pages.headphones_page | Cart items visible: 5
+2026-05-22 14:40:31 | INFO | tests.test_2_positive_cases | Cart page loaded. URL: https://www.bestbuy.com/cart
+2026-05-22 14:40:32 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\positive_test_07_cart_summary_20260522_144031.png
+2026-05-22 14:40:32 | INFO | tests.test_2_positive_cases | POSITIVE TEST 7 PASSED — Cart page opened: https://www.bestbuy.com/cart
+2026-05-22 14:40:32 | INFO | conftest | Browser closing.
+2026-05-22 14:40:46 | INFO | conftest | Browser started.
+2026-05-22 14:40:46 | INFO | tests.test_3_negative_cases | ============================================================
+2026-05-22 14:40:46 | INFO | tests.test_3_negative_cases | NEGATIVE TEST 1 — WRONG WEBSITE URL
+2026-05-22 14:40:46 | INFO | tests.test_3_negative_cases | Expected website : https://www.bestbuy.com
+2026-05-22 14:40:46 | INFO | tests.test_3_negative_cases | Opening WRONG website: https://www.bastbiy.com
+2026-05-22 14:40:46 | INFO | tests.test_3_negative_cases | ============================================================
+2026-05-22 14:40:48 | INFO | tests.test_3_negative_cases | Wrong website attempted: https://www.bastbiy.com
+2026-05-22 14:40:48 | INFO | tests.test_3_negative_cases | Page Title : www.bastbiy.com
+2026-05-22 14:40:48 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\negative_test_1_wrong_website_url_20260522_144048.png
+2026-05-22 14:40:48 | INFO | tests.test_3_negative_cases | Negative verification — bestbuy.com absent from URL: True
+2026-05-22 14:40:48 | INFO | tests.test_3_negative_cases | Result : NEGATIVE TEST 1 PASSED — wrong BestBuy URL used instead of bestbuy.com
+2026-05-22 14:40:48 | INFO | conftest | Browser closing.
+2026-05-22 14:40:58 | INFO | conftest | Browser started.
+2026-05-22 14:40:58 | INFO | tests.test_3_negative_cases | ============================================================
+2026-05-22 14:40:58 | INFO | tests.test_3_negative_cases | NEGATIVE TEST 2 — WRONG COUNTRY SELECTED
+2026-05-22 14:40:58 | INFO | tests.test_3_negative_cases | Opening correct website: https://www.bestbuy.com
+2026-05-22 14:40:58 | INFO | tests.test_3_negative_cases | ============================================================
+2026-05-22 14:41:02 | INFO | tests.test_3_negative_cases | BestBuy website opened: https://www.bestbuy.com/
+2026-05-22 14:41:02 | INFO | pages.home_page | === NEGATIVE TEST 2: Clicking Canada (wrong country) ===
+2026-05-22 14:41:05 | INFO | pages.home_page | Clicking Canada button...
+2026-05-22 14:41:15 | INFO | pages.home_page | Canada CLICKED — URL will now be bestbuy.ca
+2026-05-22 14:41:15 | INFO | pages.home_page | After Canada click — URL: https://www.bestbuy.ca/en-ca?intlreferer=&intlredir=https://www.bestbuy.com/
+2026-05-22 14:41:15 | INFO | tests.test_3_negative_cases | Current URL: https://www.bestbuy.ca/en-ca?intlreferer=&intlredir=https://www.bestbuy.com/
+2026-05-22 14:41:16 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\negative_test_2_wrong_country_20260522_144115.png
+2026-05-22 14:41:16 | INFO | tests.test_3_negative_cases | Negative verification — united-states absent from URL: True
+2026-05-22 14:41:16 | INFO | tests.test_3_negative_cases | Result : NEGATIVE TEST 2 PASSED — Canada selected instead of United States
+2026-05-22 14:41:16 | INFO | conftest | Browser closing.
+2026-05-22 14:41:26 | INFO | conftest | Browser started.
+2026-05-22 14:41:26 | INFO | tests.test_3_negative_cases | ============================================================
+2026-05-22 14:41:26 | INFO | tests.test_3_negative_cases | NEGATIVE TEST 3 — WRONG SECTION CLICKED
+2026-05-22 14:41:26 | INFO | tests.test_3_negative_cases | Opening correct website: https://www.bestbuy.com
+2026-05-22 14:41:26 | INFO | tests.test_3_negative_cases | ============================================================
+2026-05-22 14:41:31 | INFO | tests.test_3_negative_cases | BestBuy website opened: https://www.bestbuy.com/
+2026-05-22 14:41:31 | INFO | pages.home_page | === SELECT UNITED STATES: Clicking United States on popup ===
+2026-05-22 14:41:32 | INFO | pages.home_page | Clicking United States button...
+2026-05-22 14:41:39 | INFO | pages.home_page | United States button CLICKED
+2026-05-22 14:41:40 | INFO | pages.home_page | US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+2026-05-22 14:41:40 | INFO | tests.test_3_negative_cases | United States selected.
+2026-05-22 14:41:40 | INFO | pages.home_page | === NEGATIVE TEST 3: Clicking Deal of the Day (wrong section) ===
+2026-05-22 14:41:48 | WARNING | pages.home_page | XPath not found, trying next: //a[contains(@class,"bottom-left-links") and contains(@href,"deal-of-the-day")]
+2026-05-22 14:41:49 | INFO | pages.home_page | Deal of the Day link found — clicking...
+2026-05-22 14:42:04 | INFO | pages.home_page | Deal of the Day CLICKED
+2026-05-22 14:42:04 | INFO | pages.home_page | Deal of the Day URL: https://www.bestbuy.com/site/misc/deal-of-the-day/pcmcat248000050016.c?id=pcmcat248000050016
+2026-05-22 14:42:04 | INFO | tests.test_3_negative_cases | Current URL: https://www.bestbuy.com/site/misc/deal-of-the-day/pcmcat248000050016.c?id=pcmcat248000050016
+2026-05-22 14:42:05 | INFO | utilities.screenshot_utils | Screenshot saved: screenshots\negative_test_3_wrong_section_20260522_144204.png
+2026-05-22 14:42:05 | INFO | tests.test_3_negative_cases | Negative verification — top-deals absent from URL: True
+2026-05-22 14:42:05 | INFO | tests.test_3_negative_cases | Result : NEGATIVE TEST 3 PASSED — Deal of the Day opened instead of Top Deals
+2026-05-22 14:42:05 | INFO | conftest | Browser closing.
+2026-05-22 14:42:10 | INFO | conftest | Generating Allure single-file HTML report...
+2026-05-22 14:42:17 | INFO | conftest | Allure report ready — open reports/allure_reports_html/index.html

@@ -1,0 +1,19 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:66 ============================================================
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:67 NEGATIVE TEST 2 — WRONG COUNTRY SELECTED
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:68 Opening correct website: https://www.bestbuy.com
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:69 ============================================================
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:73 BestBuy website opened: https://www.bestbuy.com/
+[32mINFO    [0m pages.home_page:home_page.py:89 === NEGATIVE TEST 2: Clicking Canada (wrong country) ===
+[32mINFO    [0m pages.home_page:home_page.py:99 Clicking Canada button...
+[32mINFO    [0m pages.home_page:home_page.py:101 Canada CLICKED — URL will now be bestbuy.ca
+[32mINFO    [0m pages.home_page:home_page.py:103 After Canada click — URL: https://www.bestbuy.ca/en-ca?intlreferer=&intlredir=https://www.bestbuy.com/
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:78 Current URL: https://www.bestbuy.ca/en-ca?intlreferer=&intlredir=https://www.bestbuy.com/
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\negative_test_2_wrong_country_20260522_144115.png
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:86 Negative verification — united-states absent from URL: True
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:87 Result : NEGATIVE TEST 2 PASSED — Canada selected instead of United States
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.

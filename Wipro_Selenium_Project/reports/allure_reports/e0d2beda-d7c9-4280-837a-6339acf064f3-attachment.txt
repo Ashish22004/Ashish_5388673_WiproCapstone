@@ -1,0 +1,1 @@
+2026-05-22 14:41:48 | WARNING | pages.home_page | XPath not found, trying next: //a[contains(@class,"bottom-left-links") and contains(@href,"deal-of-the-day")]

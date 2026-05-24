@@ -1,0 +1,22 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:93 ============================================================
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:94 POSITIVE TEST 3 — OPEN BESTBUY + SELECT US + CLICK TOP DEALS
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:95 ============================================================
+[32mINFO    [0m pages.home_page:home_page.py:32 === SELECT UNITED STATES: Clicking United States on popup ===
+[32mINFO    [0m pages.home_page:home_page.py:41 Clicking United States button...
+[32mINFO    [0m pages.home_page:home_page.py:43 United States button CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:48 US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:103 United States selected. URL: https://www.bestbuy.com/?intl=nosplash
+[32mINFO    [0m pages.home_page:home_page.py:55 === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+[33mWARNING [0m pages.home_page:home_page.py:82 XPath not found, trying next: //a[@data-lid="ubr_td"]
+[32mINFO    [0m pages.home_page:home_page.py:71 Top Deals link found — clicking...
+[32mINFO    [0m pages.home_page:home_page.py:73 Top Deals CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:79 Top Deals page URL: https://www.bestbuy.com/top-deals
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:107 Top Deals clicked. URL: https://www.bestbuy.com/top-deals
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\positive_test_03_top_deals_20260522_143241.png
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:115 POSITIVE TEST 3 PASSED — Top Deals opened: https://www.bestbuy.com/top-deals
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.

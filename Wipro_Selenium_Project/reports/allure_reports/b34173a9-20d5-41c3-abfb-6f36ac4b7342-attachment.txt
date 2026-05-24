@@ -1,0 +1,25 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:106 ============================================================
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:107 NEGATIVE TEST 3 — WRONG SECTION CLICKED
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:108 Opening correct website: https://www.bestbuy.com
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:109 ============================================================
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:113 BestBuy website opened: https://www.bestbuy.com/
+[32mINFO    [0m pages.home_page:home_page.py:32 === SELECT UNITED STATES: Clicking United States on popup ===
+[32mINFO    [0m pages.home_page:home_page.py:41 Clicking United States button...
+[32mINFO    [0m pages.home_page:home_page.py:43 United States button CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:48 US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:118 United States selected.
+[32mINFO    [0m pages.home_page:home_page.py:110 === NEGATIVE TEST 3: Clicking Deal of the Day (wrong section) ===
+[33mWARNING [0m pages.home_page:home_page.py:133 XPath not found, trying next: //a[contains(@class,"bottom-left-links") and contains(@href,"deal-of-the-day")]
+[32mINFO    [0m pages.home_page:home_page.py:126 Deal of the Day link found — clicking...
+[32mINFO    [0m pages.home_page:home_page.py:128 Deal of the Day CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:130 Deal of the Day URL: https://www.bestbuy.com/site/misc/deal-of-the-day/pcmcat248000050016.c?id=pcmcat248000050016
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:122 Current URL: https://www.bestbuy.com/site/misc/deal-of-the-day/pcmcat248000050016.c?id=pcmcat248000050016
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\negative_test_3_wrong_section_20260522_144204.png
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:130 Negative verification — top-deals absent from URL: True
+[32mINFO    [0m tests.test_3_negative_cases:test_3_negative_cases.py:131 Result : NEGATIVE TEST 3 PASSED — Deal of the Day opened instead of Top Deals
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.

@@ -1,0 +1,50 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:217 ============================================================
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:218 POSITIVE TEST 6 — UP TO ADD PRODUCTS TO CART
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:219 ============================================================
+[32mINFO    [0m pages.home_page:home_page.py:32 === SELECT UNITED STATES: Clicking United States on popup ===
+[32mINFO    [0m pages.home_page:home_page.py:41 Clicking United States button...
+[32mINFO    [0m pages.home_page:home_page.py:43 United States button CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:48 US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+[32mINFO    [0m pages.home_page:home_page.py:55 === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+[33mWARNING [0m pages.home_page:home_page.py:82 XPath not found, trying next: //a[@data-lid="ubr_td"]
+[32mINFO    [0m pages.home_page:home_page.py:71 Top Deals link found — clicking...
+[32mINFO    [0m pages.home_page:home_page.py:73 Top Deals CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:79 Top Deals page URL: https://www.bestbuy.com/top-deals
+[32mINFO    [0m pages.headphones_page:headphones_page.py:34 === POSITIVE TEST 4: CLICK HEADPHONES CATEGORY ===
+[32mINFO    [0m pages.headphones_page:headphones_page.py:44 Headphones link found — clicking...
+[32mINFO    [0m pages.headphones_page:headphones_page.py:46 Headphones CLICKED
+[32mINFO    [0m pages.headphones_page:headphones_page.py:48 Headphones On Sale page: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+[32mINFO    [0m pages.headphones_page:headphones_page.py:58 === POSITIVE TEST 5: CLICK RANDOM HEADPHONE CATEGORY ===
+[32mINFO    [0m utilities.excel_utils:excel_utils.py:27 Categories loaded from Excel: ['Wireless', 'Wired', 'Open-Ear', 'Sports', 'Noise-Cancelling']
+[32mINFO    [0m utilities.excel_utils:excel_utils.py:32 Randomly selected category: Sports
+[32mINFO    [0m pages.headphones_page:headphones_page.py:62 Selected category from Excel: Sports
+[32mINFO    [0m pages.headphones_page:headphones_page.py:79 Sports link found — clicking...
+[32mINFO    [0m pages.headphones_page:headphones_page.py:81 Sports CLICKED
+[32mINFO    [0m pages.headphones_page:headphones_page.py:83 Category page URL: https://www.bestbuy.com/site/headphones-on-sale/sports-headphones-on-sale/pcmcat1754336820255.c?id=pcmcat1754336820255
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:237 Random category selected: Sports
+[32mINFO    [0m pages.headphones_page:headphones_page.py:116 Counting products on listing page...
+[32mINFO    [0m pages.headphones_page:headphones_page.py:159 Found 53 products using selector: [class*="list-item"]
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:241 Products found on page: 53
+[32mINFO    [0m pages.headphones_page:headphones_page.py:251 === POSITIVE TEST 6: ADD PRODUCTS TO CART ===
+[32mINFO    [0m pages.headphones_page:headphones_page.py:219 Total Add to Cart buttons found: 4
+[32mINFO    [0m pages.headphones_page:headphones_page.py:240 Valid Add to Cart button: plp-add-to-cart-6556931
+[32mINFO    [0m pages.headphones_page:headphones_page.py:240 Valid Add to Cart button: plp-add-to-cart-6376563
+[32mINFO    [0m pages.headphones_page:headphones_page.py:240 Valid Add to Cart button: plp-add-to-cart-6590627
+[32mINFO    [0m pages.headphones_page:headphones_page.py:240 Valid Add to Cart button: plp-add-to-cart-6590116
+[32mINFO    [0m pages.headphones_page:headphones_page.py:258 Valid buttons ready to click: 4
+[32mINFO    [0m pages.headphones_page:headphones_page.py:291 Clicking Add to Cart for product 1: plp-add-to-cart-6556931
+[32mINFO    [0m pages.headphones_page:headphones_page.py:296 Add to Cart clicked!
+[32mINFO    [0m pages.headphones_page:headphones_page.py:302 Product 1 added to cart successfully.
+[32mINFO    [0m pages.headphones_page:headphones_page.py:291 Clicking Add to Cart for product 2: plp-add-to-cart-6376563
+[32mINFO    [0m pages.headphones_page:headphones_page.py:296 Add to Cart clicked!
+[32mINFO    [0m pages.headphones_page:headphones_page.py:302 Product 2 added to cart successfully.
+[32mINFO    [0m pages.headphones_page:headphones_page.py:310 Total products added to cart: 2
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:244 Products added to cart: 2
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\positive_test_06_add_to_cart_20260522_143756.png
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:250 POSITIVE TEST 6 PASSED — Products added to cart: 2
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.

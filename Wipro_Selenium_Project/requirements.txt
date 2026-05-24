@@ -1,0 +1,20 @@
+# Browser automation library
+selenium
+
+# Testing framework
+pytest
+
+# Generates HTML test reports
+pytest-html
+
+# Generates Allure test reports
+allure-pytest
+
+# Auto-downloads and manages browser drivers
+webdriver-manager
+
+# Read and write Excel files
+openpyxl
+
+# Read and write YAML config files
+pyyaml

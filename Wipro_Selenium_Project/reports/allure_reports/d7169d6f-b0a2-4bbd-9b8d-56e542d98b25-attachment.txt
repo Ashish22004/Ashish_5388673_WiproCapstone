@@ -1,0 +1,32 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:174 ============================================================
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:175 POSITIVE TEST 5 — UP TO CLICK RANDOM HEADPHONE CATEGORY
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:176 ============================================================
+[32mINFO    [0m pages.home_page:home_page.py:32 === SELECT UNITED STATES: Clicking United States on popup ===
+[32mINFO    [0m pages.home_page:home_page.py:41 Clicking United States button...
+[32mINFO    [0m pages.home_page:home_page.py:43 United States button CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:48 US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+[32mINFO    [0m pages.home_page:home_page.py:55 === CLICK TOP DEALS: Finding Top Deals link in navigation ===
+[33mWARNING [0m pages.home_page:home_page.py:82 XPath not found, trying next: //a[@data-lid="ubr_td"]
+[32mINFO    [0m pages.home_page:home_page.py:71 Top Deals link found — clicking...
+[32mINFO    [0m pages.home_page:home_page.py:73 Top Deals CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:79 Top Deals page URL: https://www.bestbuy.com/top-deals
+[32mINFO    [0m pages.headphones_page:headphones_page.py:34 === POSITIVE TEST 4: CLICK HEADPHONES CATEGORY ===
+[32mINFO    [0m pages.headphones_page:headphones_page.py:44 Headphones link found — clicking...
+[32mINFO    [0m pages.headphones_page:headphones_page.py:46 Headphones CLICKED
+[32mINFO    [0m pages.headphones_page:headphones_page.py:48 Headphones On Sale page: https://www.bestbuy.com/site/all-electronics-on-sale/headphones-on-sale/pcmcat1720706915460.c?id=pcmcat1720706915460
+[32mINFO    [0m pages.headphones_page:headphones_page.py:58 === POSITIVE TEST 5: CLICK RANDOM HEADPHONE CATEGORY ===
+[32mINFO    [0m utilities.excel_utils:excel_utils.py:27 Categories loaded from Excel: ['Wireless', 'Wired', 'Open-Ear', 'Sports', 'Noise-Cancelling']
+[32mINFO    [0m utilities.excel_utils:excel_utils.py:32 Randomly selected category: Noise-Cancelling
+[32mINFO    [0m pages.headphones_page:headphones_page.py:62 Selected category from Excel: Noise-Cancelling
+[32mINFO    [0m pages.headphones_page:headphones_page.py:79 Noise-Cancelling link found — clicking...
+[32mINFO    [0m pages.headphones_page:headphones_page.py:81 Noise-Cancelling CLICKED
+[32mINFO    [0m pages.headphones_page:headphones_page.py:83 Category page URL: https://www.bestbuy.com/site/headphones-on-sale/noise-cancelling-headphones-on-sale/pcmcat1754336741480.c?id=pcmcat1754336741480
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:194 Random category selected: Noise-Cancelling. URL: https://www.bestbuy.com/site/headphones-on-sale/noise-cancelling-headphones-on-sale/pcmcat1754336741480.c?id=pcmcat1754336741480
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\positive_test_05_random_headphone_category_20260522_143544.png
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:200 POSITIVE TEST 5 PASSED — Random category page opened: https://www.bestbuy.com/site/headphones-on-sale/noise-cancelling-headphones-on-sale/pcmcat1754336741480.c?id=pcmcat1754336741480
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.

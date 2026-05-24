@@ -1,0 +1,13 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:25 ============================================================
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:26 POSITIVE TEST 1 — OPEN BESTBUY WEBSITE
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:27 ============================================================
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:31 Website opened: https://www.bestbuy.com/
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:32 Page Title    : Best Buy International: Select your Country - Best Buy
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\positive_test_01_bestbuy_website_20260522_143118.png
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:40 POSITIVE TEST 1 PASSED — BestBuy website opened: https://www.bestbuy.com/
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.

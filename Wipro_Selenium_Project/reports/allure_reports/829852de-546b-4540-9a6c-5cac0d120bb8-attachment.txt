@@ -1,0 +1,17 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ashis\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:25 Browser started.
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:57 ============================================================
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:58 POSITIVE TEST 2 — OPEN BESTBUY + SELECT UNITED STATES
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:59 ============================================================
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:63 Website opened: https://www.bestbuy.com/
+[32mINFO    [0m pages.home_page:home_page.py:32 === SELECT UNITED STATES: Clicking United States on popup ===
+[32mINFO    [0m pages.home_page:home_page.py:41 Clicking United States button...
+[32mINFO    [0m pages.home_page:home_page.py:43 United States button CLICKED
+[32mINFO    [0m pages.home_page:home_page.py:48 US Homepage loaded: Best Buy | Official Online Store | Shop Now & Save
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:68 United States selected. URL: https://www.bestbuy.com/?intl=nosplash
+[32mINFO    [0m utilities.screenshot_utils:screenshot_utils.py:23 Screenshot saved: screenshots\positive_test_02_united_states_20260522_143143.png
+[32mINFO    [0m tests.test_2_positive_cases:test_2_positive_cases.py:76 POSITIVE TEST 2 PASSED — United States selected: https://www.bestbuy.com/?intl=nosplash
+[32mINFO    [0m conftest:conftest.py:29 Browser closing.
