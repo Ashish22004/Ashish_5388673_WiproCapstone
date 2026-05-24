@@ -1,0 +1,10 @@
+
+base_url: "https://www.bestbuy.com"
+implicit_wait: 15
+explicit_wait: 30
+browser: chrome
+
+# headless mode controls whether browser window is visible or not
+# false = browser window opens and is visible on screen (used in this project so we can see test running live)
+# true  = browser runs hidden in background without opening any window (used in CI/CD pipelines or servers)
+headless: false

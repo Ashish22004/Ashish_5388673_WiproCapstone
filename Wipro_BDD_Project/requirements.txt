@@ -1,0 +1,20 @@
+# Browser automation
+selenium
+
+# BDD framework — replaces pytest
+behave
+
+# Allure report formatter for Behave — replaces allure-pytest
+allure-behave
+
+# HTML report formatter for Behave
+behave-html-formatter
+
+# Auto-downloads browser driver
+webdriver-manager
+
+# Read Excel files
+openpyxl
+
+# Read YAML config files
+pyyaml
